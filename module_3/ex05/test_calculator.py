@@ -28,6 +28,6 @@ def test_divide_by_zero():
 
 def test_power():
     assert calculator.power(2, 3) == 8
-    assert calcularor.power(2, -1) == 0.5
-    assert calculator.power(-2, 2) == -4
+    assert calculator.power(2, -1) == 0.5
+    assert calculator.power(-2, 2) == 4
     assert calculator.power(2, 0) == 1

@@ -13,6 +13,5 @@ from password_validator import is_valid_password
     ("NoSpecial123", False),
     ("Has Space1!", False),
 ])
-
 def test_is_valid_password(password, expected):
    assert is_valid_password(password) == expected

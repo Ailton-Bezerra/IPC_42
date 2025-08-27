@@ -1,7 +1,6 @@
 import sys
 
-def main():
-
+def main() -> None:
     if len(sys.argv) != 2:
         print("inválid input")
     try:
