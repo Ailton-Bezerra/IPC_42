@@ -1,6 +1,7 @@
 import sys
 
 def main() -> None:
+    """Receives a file from input and try to read it"""
     if len(sys.argv) != 2:
         print("inválid input")
     try:

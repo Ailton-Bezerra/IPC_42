@@ -1,6 +1,7 @@
 import string
 
 def is_valid_password(password: str) -> bool:
+    """Receives a string representing a passaword and checks if the passoword is valid"""
     if len(password) < 8 or len(password) > 16:
         return False
     if " " in password:
